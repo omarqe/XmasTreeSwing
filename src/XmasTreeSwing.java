@@ -113,11 +113,11 @@ public class XmasTreeSwing extends JFrame implements ActionListener
       exitButton.setFont(new Font("CENTURY GOTHIC", Font.ITALIC,16));
  
       //Setting font colour on buttons
-      lightButton.setForeground(Color.white);
-      ornamentButton.setForeground(Color.white);
-      presentButton.setForeground(Color.white);
-      addAllButton.setForeground(Color.white);
-      exitButton.setForeground(Color.white);
+      lightButton.setForeground(Color.black);
+      ornamentButton.setForeground(Color.black);
+      presentButton.setForeground(Color.black);
+      addAllButton.setForeground(Color.black);
+      exitButton.setForeground(Color.black);
  
       //Add the buttons to the buttonPanel
       buttonPanel.add(lightButton);
