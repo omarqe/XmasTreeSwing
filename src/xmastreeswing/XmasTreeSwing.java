@@ -1,4 +1,4 @@
-
+package xmastreeswing;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -113,11 +113,11 @@ public class XmasTreeSwing extends JFrame implements ActionListener
       exitButton.setFont(new Font("CENTURY GOTHIC", Font.ITALIC,16));
  
       //Setting font colour on buttons
-      lightButton.setForeground(Color.black);
-      ornamentButton.setForeground(Color.black);
-      presentButton.setForeground(Color.black);
-      addAllButton.setForeground(Color.black);
-      exitButton.setForeground(Color.black);
+      lightButton.setForeground(Color.white);
+      ornamentButton.setForeground(Color.white);
+      presentButton.setForeground(Color.white);
+      addAllButton.setForeground(Color.white);
+      exitButton.setForeground(Color.white);
  
       //Add the buttons to the buttonPanel
       buttonPanel.add(lightButton);
@@ -261,5 +261,11 @@ public class XmasTreeSwing extends JFrame implements ActionListener
       }//else exit
  
    } //actionPerformed
+ 
+   public static void main(String[] args)
+   {
+      XmasTreeSwing gui = new XmasTreeSwing();
+ 
+   }//main
  
 }//class
