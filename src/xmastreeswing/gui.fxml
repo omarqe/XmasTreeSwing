@@ -21,7 +21,7 @@
             <Image url="@../res/santa.png" />
          </image>
       </ImageView>
-      <ImageView id="lightStar" fitHeight="375.0" fitWidth="241.0" layoutX="339.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView id="lightStar" fx:id="lightStar" fitHeight="375.0" fitWidth="241.0" layoutX="339.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@../res/tree-of-light.png" />
          </image>
