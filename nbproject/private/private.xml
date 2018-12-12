@@ -3,14 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/xmastreeswing/XmasTreeSwing.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/SantaOffCommand.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/Command.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/RemoteLoader.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/Santa.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/SantaAudio.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/SantaOnCommand.java</file>
-            <file>file:/C:/Users/user/Documents/NetBeansProjects/XmasTreeSwing/src/command/RemoteControl.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/xmastreeswing/XmasTreeSwing.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/Command.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/GiftBoxInterface.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/strategy/LightIsOn.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/SantaOnCommand.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/GiftBox.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/Control.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/RemoteLoader.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/strategy/LightOffBehavior.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/Toy.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/strategy/LightChristmas.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/Gifts.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/xmastreeswing/Controller.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/decorator/AddGift.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/RemoteControl.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/SantaAudio.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/command/Santa.java</file>
+            <file>file:/C:/Users/alisu/Documents/NetBeansProjects/XmasTreeSwing-master/src/strategy/ChristmasLight.java</file>
         </group>
     </open-files>
 </project-private>
