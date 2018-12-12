@@ -21,29 +21,9 @@
             <Image url="@../res/santa.png" />
          </image>
       </ImageView>
-      <ImageView id="Lights1" fitHeight="40.0" fitWidth="115.0" layoutX="412.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView id="lightStar" fitHeight="375.0" fitWidth="241.0" layoutX="339.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
-            <Image url="@../res/Christmas-Lights-PNG-Image.png" />
-         </image>
-      </ImageView>
-      <ImageView id="Lights2" fitHeight="40.0" fitWidth="115.0" layoutX="412.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@../res/Christmas-Lights-PNG-Image.png" />
-         </image>
-      </ImageView>
-      <ImageView id="Lights3" fitHeight="44.0" fitWidth="106.0" layoutX="412.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@../res/Christmas-Lights-PNG-Image.png" />
-         </image>
-      </ImageView>
-      <ImageView id="Lights4" fitHeight="52.0" fitWidth="115.0" layoutX="402.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@../res/Christmas-Lights-PNG-Image.png" />
-         </image>
-      </ImageView>
-      <ImageView id="Lights5" fitHeight="55.0" fitWidth="136.0" layoutX="399.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true" visible="false">
-         <image>
-            <Image url="@../res/Christmas-Lights-PNG-Image.png" />
+            <Image url="@../res/tree-of-light.png" />
          </image>
       </ImageView>
       <AnchorPane id="panel" layoutY="393.0" prefHeight="62.0" prefWidth="920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">

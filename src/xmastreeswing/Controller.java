@@ -1,10 +1,11 @@
 package xmastreeswing;
 
 import command.RemoteLoader;
-import javafx.fxml.FXML;
+import javafx.fxml.FXML;;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import strategy.LightChristmas;
 
 public class Controller {
     @FXML
@@ -12,6 +13,9 @@ public class Controller {
 
     @FXML
     private ImageView santaImage;
+    
+    @FXML
+    private ImageView lightStar;
 
     @FXML
     public void onClick(MouseEvent mouseEvent) {
@@ -33,6 +37,7 @@ public class Controller {
 
             // TODO: Strategy Pattern
             case "lights":
+                LightChristmas.init(lightStar);
                 break;
 
             // TODO: Decorator Pattern
