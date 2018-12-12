@@ -16,9 +16,14 @@
             <Image url="@../res/xmastree.png" />
          </image>
       </ImageView>
-      <ImageView id="santaImage" fx:id="santaImage" visible="false" fitHeight="216.0" fitWidth="155.0" layoutX="115.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView id="santaImage" fx:id="santaImage" fitHeight="216.0" fitWidth="155.0" layoutX="115.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@../res/santa.png" />
+         </image>
+      </ImageView>
+      <ImageView id="lightStar" fx:id="lightStar" fitHeight="375.0" fitWidth="241.0" layoutX="339.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../res/tree-of-light.png" />
          </image>
       </ImageView>
       <AnchorPane id="panel" layoutY="393.0" prefHeight="62.0" prefWidth="920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
