@@ -26,11 +26,13 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import strategy.LightChristmas;
 import facade.Ornaments;
+import state.*;
 import javafx.fxml.Initializable;
 
 public class Controller implements Initializable{
     
     GiftBoxInterface box = new GiftBox();
+    Snow salji;
 
     @FXML
     private Button santa, snow, ornaments, lights;
@@ -57,11 +59,13 @@ public class Controller implements Initializable{
     private ImageView orn1, orn2, orn3, orn4, orn5;
     @FXML
     private Button clear;
+    @FXML
+    private ImageView snow_gif;
     
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         hideOrn();
-        
+        hideSnow();
     }
     
     @FXML
@@ -76,6 +80,7 @@ public class Controller implements Initializable{
 
             // TODO: State Pattern
             case "snow":
+                salji.triggerSnow();
                 break;
 
             // TODO: Façade Pattern
@@ -154,6 +159,11 @@ public class Controller implements Initializable{
         orn3.setVisible(false);
         orn4.setVisible(false);
         orn5.setVisible(false);
+    }
+    
+    private void hideSnow(){
+        snow_gif.setVisible(false);
+        salji = new Snow(snow_gif);
     }
 
     
