@@ -5,7 +5,6 @@ import decorator.AddGift;
 import decorator.Candy;
 import decorator.GiftBox;
 import decorator.GiftBoxInterface;
-import decorator.Gifts;
 import decorator.Smartphone;
 import decorator.Toy;
 import decorator.tshirt;
@@ -17,12 +16,24 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import strategy.LightChristmas;
+import facade.Ornaments;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;import javafx.scene.control.Button;
+import javafx.scene.control.RadioButton;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Text;
+import strategy.LightChristmas;
+import facade.Ornaments;
+import javafx.fxml.Initializable;
 
-public class Controller {
+public class Controller implements Initializable{
+    
     GiftBoxInterface box = new GiftBox();
 
     @FXML
-    private Button santa, snow, ornaments, lights, gifts;
+    private Button santa, snow, ornaments, lights;
 
     @FXML
     private ImageView santaImage;
@@ -43,6 +54,17 @@ public class Controller {
     private Button adder;
     
     @FXML
+    private ImageView orn1, orn2, orn3, orn4, orn5;
+    @FXML
+    private Button clear;
+    
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        hideOrn();
+        
+    }
+    
+    @FXML
     public void onClick(MouseEvent mouseEvent) {
         Button temp = (Button) mouseEvent.getSource();
         String id = temp.getId();
@@ -58,6 +80,8 @@ public class Controller {
 
             // TODO: Façade Pattern
             case "ornaments":
+                Ornaments ornaments = new Ornaments(orn1, orn2, orn3, orn4, orn5);
+                ornaments.setOrn();
                 break;
 
             // TODO: Strategy Pattern
@@ -122,4 +146,15 @@ public class Controller {
                 break;
         }
     }
+
+    private void hideOrn() 
+    {
+        orn1.setVisible(false);
+        orn2.setVisible(false);
+        orn3.setVisible(false);
+        orn4.setVisible(false);
+        orn5.setVisible(false);
+    }
+
+    
 }
