@@ -3,5 +3,4 @@
 out/*
 out/production/*
 /build/
-*.properties
-nbproject/private/private.properties
+nbproject/*
